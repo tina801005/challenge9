@@ -142,8 +142,10 @@ body{
 
 hr{
     margin: 0;
-    color: var(--line);
-
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: solid 0.09rem var(--line);
 }
 
 .productAuthor{
